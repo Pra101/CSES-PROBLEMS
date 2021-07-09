@@ -4,6 +4,7 @@ Solved using segment trees..
 using property a1*a2 + a1*a3 + a1*a4+........+a2*a3+a2*a4+.........+a3*a4+......
 == ((a1+a2+a3+a4+a5+.....)^2 - (a1^2+a2^2+a3^2+a4^2+....))/2
 so I just needed two segment trees to solve the given problem.
+
 */
 #include<bits/stdc++.h>
 using namespace std;
