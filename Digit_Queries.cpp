@@ -21,4 +21,5 @@ void Digit_Queries(){
     while((rem-- -1)>0)d/=10;
     cout<<d%10<<"\n";
     return ;
+	
 }
