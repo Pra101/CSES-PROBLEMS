@@ -1,4 +1,8 @@
-void Mamba_Mentality(){
+// Applied Greedy Approach
+// Tried finding the next biggest(upper_bound) element in my present state(initially empty but later is going to be sorted){Binary search}
+// if(upperbound--> state.end()) then updated the state by appending that element
+// Else update that iterated value
+void Towers(){
     int n;cin>>n;
     vector<int>arr(n);enter(arr);
     vector<int> state;
