@@ -1,4 +1,6 @@
-void Mamba_Mentality(){
+// Used N^2 loops for finding two potential values and 
+// Binary search to find third useful value
+void Sum_of_Three_Values(){
     int n,tar;
     cin>>n>>tar;
     vector<pair<int,int>> arr;
