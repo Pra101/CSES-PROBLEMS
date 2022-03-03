@@ -1,4 +1,5 @@
-void Mamba_Mentality(){
+//Greedy, Ans=max(2*Max_element,overall_sum);
+void Reading_Books(){
     int n;cin>>n;
     vector<int> arr(n);enter(arr);
     int sum=0,mx_ele=arr[0];
