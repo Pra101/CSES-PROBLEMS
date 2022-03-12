@@ -1,3 +1,4 @@
+// Binary searched the Answer
 void Array_Division(){
     int n,kk;cin>>n>>kk;
     vector<int> arr(n);enter(arr);
